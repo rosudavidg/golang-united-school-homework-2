@@ -36,5 +36,5 @@ func CalcSquare(sideLen float64, sidesNum ShapeSides) float64 {
 		return calcSquareArea(sideLen)
 	}
 
-	panic("Unknown ShapeSides type")
+	return 0
 }
